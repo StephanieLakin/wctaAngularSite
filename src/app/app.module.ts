@@ -6,6 +6,7 @@ import { ContentService } from './shared/services/content/content.service';
 
 import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
+import { AppRoutingModule} from './app-routing.module';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { PageComponent } from './page/page.component';
     MatToolbarModule,
     MatButtonModule,
     MatCardModule,
+    AppRoutingModule
     
   ],
   providers: [ContentService],
