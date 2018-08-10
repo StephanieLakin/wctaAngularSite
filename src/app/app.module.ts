@@ -7,12 +7,14 @@ import { ContentService } from './shared/services/content/content.service';
 import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
 import { AppRoutingModule} from './app-routing.module';
+import { FullpageDirective } from './shared/directives/fullpage.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageComponent
+    PageComponent,
+    FullpageDirective
   ],
   imports: [
     BrowserModule,
